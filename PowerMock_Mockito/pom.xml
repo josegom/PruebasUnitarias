@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>PowerMockMockito</artifactId>
+  <name>PowerMock_Mockito</name>
+  <description>Modulo para realizar pruebas con Power Mock Api Mockito</description>
+  <parent>
+  	<groupId>misProyectos.pruebas</groupId>
+  	<artifactId>padre</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  </parent>
+  		<dependencies>
+	     	<dependency>
+		   <groupId>misProyectos.pruebas</groupId>
+		  <artifactId>comun</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+		 </dependency>
+		 
+		<dependency>
+    		<groupId>org.powermock</groupId>
+    		<artifactId>powermock-module-junit4</artifactId>
+    		<version>1.4.10</version>
+    		<scope>test</scope>
+		</dependency>
+		
+		 
+		<dependency>
+		    <groupId>org.powermock</groupId>
+		    <artifactId>powermock-api-mockito</artifactId>
+		    <version>1.4.10</version>
+		    <scope>test</scope>
+		</dependency>
+		
+		
+	 </dependencies>
+	 
+</project>
