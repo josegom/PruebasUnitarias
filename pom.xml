@@ -8,11 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<description>Proyecto dedicado a probar varios framework de mock.</description>
 
-
-
 	<dependencies>
-
-
 		<dependency>
 		    <groupId>junit</groupId>
 		    <artifactId>junit</artifactId>
@@ -20,16 +16,14 @@
 		    <scope>test</scope>
 		</dependency>
 
-	
 	</dependencies>
-<modules>
-	<module>EasyMock</module>
-	<module>Comun</module>
-	<module>Mockito</module>
-	<module>PowerMock_EasyMock</module>
-	<module>PowerMock_Mockito</module>
-</modules>
-
+	<modules>
+		<module>EasyMock</module>
+		<module>Comun</module>
+		<module>Mockito</module>
+		<module>PowerMock_EasyMock</module>
+		<module>PowerMock_Mockito</module>
+	</modules>
 	<build>
     <pluginManagement>
       <plugins>
@@ -41,6 +35,4 @@
       </plugins>
     </pluginManagement>
   </build>
-
-
 </project>
